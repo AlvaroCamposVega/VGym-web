@@ -1,5 +1,6 @@
 @media only screen and (max-width: 320px)
 {
+    body { font-size: 1.3em; }
     /* SECCIÓN PRINCIPAL */
     body section#principal .grid-container
     {

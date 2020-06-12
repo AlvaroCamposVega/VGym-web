@@ -1,5 +1,6 @@
 @media only screen and (max-width: 414px)
 {
+    body { font-size: 1.3em; }
     /* CONFIGURACIÓN SECCIONES */
     body section { height: 150vh; }
     /* SECCIÓN PRINCIPAL */
