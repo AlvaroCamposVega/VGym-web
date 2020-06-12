@@ -1,0 +1,194 @@
+/* CONFIGURACIÓN SECCIONES Y GRID LAYOUT */
+section { height: 100vh; width: 100%; }
+.grid-container { width: 100%; height: 100%; display: grid; }
+/* SECCIÓN PRINCIPAL */
+section#principal
+{
+    background-image: url('../img/section-principal-bg.png');
+    background-size: cover;
+}
+section#principal .grid-container
+{
+    grid-template-columns: 50% auto;
+    grid-template-rows: 20% 66%;
+    gap: 6% 4%;
+}
+section#principal .grid-container .grid-item
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section#principal .grid-container .grid-item#logo { grid-column: 1 / 3; }
+section#principal .grid-container .grid-item#logo svg
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 4vh;
+    fill: #f4f4f4;
+    transform: scale(1.2);
+}
+section#principal .grid-container .grid-item#texto div
+{
+    width: 60%;
+    height: auto;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+section#principal .grid-container .grid-item#texto p
+{
+    padding-bottom: 10%;
+    border-bottom: 1px solid #24a7ff;
+}
+section#principal .grid-container .grid-item#texto #p2 { margin-top: 20%; }
+section#principal .grid-container .grid-item#imagen { padding: 0; }
+section#principal .grid-container .grid-item#imagen img
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px #000;
+}
+/* SECCIÓN FUNCIONALIDADES */
+section#funcionalidades
+{
+    background-image: url('../img/section-funcionalidades-bg.png');
+    background-size: cover;
+}
+section#funcionalidades .grid-container
+{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% 66%;
+    gap: 6% 6%;
+    justify-content: space-between;
+}
+section#funcionalidades .grid-container .grid-item
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section#funcionalidades .grid-container .grid-item .texto
+{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #181818;
+    padding: 4%;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px 0px #24a7ff;
+}
+section#funcionalidades .grid-container .grid-item#carrousel
+{
+    grid-column: 1 / 4;
+}
+section#funcionalidades .grid-container .grid-item#carrousel #slide-container
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+section#funcionalidades .grid-container .grid-item#carrousel .slide
+{
+    display: none;
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+section#funcionalidades .grid-container .grid-item#carrousel img
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px #000;
+}
+.anim-fade
+{
+    -webkit-animation-name: anim-fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: anim-fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes anim-fade { from {opacity: .4} to {opacity: 1} }
+@keyframes anim-fade { from {opacity: .4} to {opacity: 1} }
+/* SECCIÓN VIDEO */
+section#video
+{
+    background-image: url('../img/section-video-bg.png');
+    background-size: cover;
+}
+section#video .grid-container
+{
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 66%;
+    gap: 6% 0%;
+    justify-content: space-between;
+}
+section#video .grid-container .grid-item
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section#video .grid-container .grid-item .texto
+{
+    width: 62%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #181818;
+    padding: 2%;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px 0px #ffc800;
+}
+section#video .grid-container .grid-item .video
+{
+    width: 62%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #181818;
+    padding: 2%;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px 0px #ffc800;
+}
+section#video .grid-container .grid-item iframe
+{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 90%;
+    border: none;
+    border-right: 1px solid #ffc800;
+    border-left: 1px solid #24a7ff;
+}

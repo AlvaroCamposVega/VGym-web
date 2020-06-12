@@ -1,0 +1,21 @@
+/* BARRA DE NAVEGACIÓN */
+body nav
+{
+    height: 6vh;
+    position: relative;
+    top: 0;
+    background-color: #181818;
+    border-bottom: 0.15vw solid #ffc800;
+}
+body nav ul {
+    margin-left: 2.4vw;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+body nav ul li { display: inline; margin-right: 1.4vw; }
+a { text-decoration: none; color: #24a7ff; }
+a:link { text-decoration: none; color: #24a7ff; }
+a:visited { text-decoration: none; color: #24a7ff; }
+a:hover { text-decoration: underline; }

@@ -1,0 +1,8 @@
+/* CONFIGURACIÓN INICIAL */
+* { margin: 0; padding: 0; font-family: 'Raleway', sans-serif; }
+body { background-color: #202020; font-size: 1.3em; color: #f4f4f4; }
+/* SCROLLBAR */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #202020; }
+::-webkit-scrollbar-thumb { background: #ccc; }
+::-webkit-scrollbar-thumb:hover { background: #999; }
