@@ -25,9 +25,9 @@ section#principal .grid-container .grid-item#logo svg
     position: relative;
     display: block;
     margin: auto;
+    width: 20%;
     top: 4vh;
     fill: #f4f4f4;
-    transform: scale(1.2);
 }
 section#principal .grid-container .grid-item#texto div
 {
