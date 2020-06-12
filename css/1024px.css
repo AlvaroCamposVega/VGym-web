@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1024px)
+{
+    /* BARRA DE NAVEGACIÓN */
+    body nav { font-size: 1.5em; }
+    /* CONFIGURACIÓN SECCIONES */
+    body section { height: 120vh; }
+    /* SECCIÓN PRINCIPAL */
+    body section#principal { background-size: 170%; }
+    body section#principal .grid-container
+    {
+        grid-template-columns: 100%;
+        grid-template-rows: 16% 40% 38%;
+        gap: 3% 0%;
+    }
+    body section#principal .grid-container .grid-item#logo { grid-column: 1; }
+    body section#principal .grid-container .grid-item#logo svg { width: 46%; }
+    body section#principal .grid-container .grid-item#texto div
+    {
+        width: 70%;
+        font-size: 1.9em;
+    }
+    body section#principal .grid-container .grid-item#imagen
+    {
+        padding-top: 0%;
+    }
+    /* SECCIÓN FUNCIONALIDADES */
+    section#funcionalidades
+    {
+        background-size: 170%;
+        background-position-x: 40%;
+    }
+    section#funcionalidades .grid-container
+    {
+        grid-template-columns: auto auto;
+        grid-template-rows: 20% 20% 46%;
+        gap: 0% 0%;
+    }
+    section#funcionalidades .grid-container .grid-item .texto
+    {
+        width: 70%;
+        font-size: 1.7em;
+    }
+    section#funcionalidades .grid-container .grid-item#admin
+    {
+        grid-column: 1 / 3;
+    }
+    section#funcionalidades .grid-container .grid-item#carrousel
+    {
+        grid-column: 1 / 3;
+        padding-top: 10%;
+    }
+    /* SECCIÓN VÍDEO */
+    section#video
+    {
+        background-size: 170%;
+        background-position-x: 50%;
+        height: 80vh;
+    }
+    section#video .grid-container .grid-item .texto
+    {
+        width: 80%;
+        font-size: 1.8em;
+    }
+    section#video .grid-container .grid-item iframe { height: 75%; }
+    /* FOOTER */
+    footer .grid-container { grid-template-columns: 32% 60%; }
+    footer .grid-container .grid-item div
+    {
+        text-align: left;
+        font-size: 1.8em;
+    }
+    footer .grid-container .grid-item div#imagen
+    {
+        height: 150px; /* 150 */
+        width: 150px; /* 150 */
+        background-size: 120%; /* 120 */
+        background-position: -26px -70px; /* -26 -70 */
+    }
+}

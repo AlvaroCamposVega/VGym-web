@@ -25,11 +25,11 @@ footer .grid-container .grid-item div#imagen
     position: relative;
     display: block;
     margin: auto;
-    height: 150px;
-    width: 150px;
+    height: 100px; /* 150 */
+    width: 100px; /* 150 */
     background-image: url('../img/person.jpg');
-    background-size: 120%;
-    background-position: -26px -70px;
+    background-size: 140%; /* 120 */
+    background-position: -40px -60px; /* -26 -70 */
     background-repeat: no-repeat;
     border: 1px solid #24a7ff;
     border-radius: 100%;
